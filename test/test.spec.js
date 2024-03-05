@@ -14,7 +14,7 @@ describe('Untitled', function() {
     await driver.quit();
   })
   it('Untitled', async function() {
-    await driver.get("http://localhost:3001/greeting.html")
+    await driver.get("http://localhost:3000/greeting.html")
     await driver.findElement(By.id("nameInput")).click()
     await driver.findElement(By.id("nameInput")).sendKeys("Hans")
     await driver.findElement(By.css("button")).click()
