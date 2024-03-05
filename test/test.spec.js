@@ -7,7 +7,8 @@ describe('Untitled', function() {
   let driver
   let vars
   beforeEach(async function() {
-    driver = await new Builder().forBrowser('chrome').build()
+    // Ändere den Browser hier zu 'firefox'
+    driver = await new Builder().forBrowser('firefox').build()
     vars = {}
   })
   afterEach(async function() {
