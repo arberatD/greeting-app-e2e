@@ -25,6 +25,7 @@ jobs:
             
             - name: Install Google Chrome
               run: |
+                    npm install chromedriver --chromedriver_version=LATEST
                     sudo apt -y update 
                     sudo apt -y install google-chrome-stable
 
